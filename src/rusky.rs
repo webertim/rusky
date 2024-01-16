@@ -17,5 +17,5 @@ pub fn rusky_setup() {
     file.write(PRE_COMMIT_SCRIPT.as_bytes()).expect("Error writing to file.");
 }
 pub fn rusky_default() {
-
+    println!("Ran rusky")
 }
