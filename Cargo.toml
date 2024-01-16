@@ -1,0 +1,12 @@
+[package]
+name = "rusky"
+authors = [
+    "Tim Weber"
+]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.17", features = ["derive"] }
+git2 = "0.18.1"
+serde = { version = "1.0.195", features = ["derive"] }
